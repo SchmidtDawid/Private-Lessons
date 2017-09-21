@@ -1,0 +1,9 @@
+Stwórz tablicę składającą się z 10 elementów liczbowych, wybranych losowo z zakresu 0-99. 
+
+Następnie posortuj sie rosnąco. 
+
+Utnij ją w połowie, 
+
+przefiltruj (usuń) wszystkie nieparzyste elementy. 
+
+Pozostałe elementy zsumuj.
