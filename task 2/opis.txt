@@ -1,0 +1,1 @@
+Napisz funkcję, która z tablicy 10 elementowej, składającej się z losowych liczb z zakresu 1-10, zwróci maksymalny możliwy wynik z mnożenia trzech liczb.
