@@ -8,8 +8,6 @@ var letters = ['m','d','a'];
 
 var newNames = [];
 
-
-
 for(var i = 0; i < names.length ; i++){
     for(var j = 0; j < letters.length; j++){
         if(names[i].name.charAt(0) == letters[j].toLocaleUpperCase()){
@@ -19,6 +17,4 @@ for(var i = 0; i < names.length ; i++){
     }
 }
 
-console.log(names);
-console.log(newNames);
 

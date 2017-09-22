@@ -1,0 +1,64 @@
+1. Oblicz 43 % 10.
+2. Jaki będzie wynik następujących działań i dlaczego:
+ 1 == true
+ 1 === true
+3. Stwórz zmienną tekstową 'cat' i przypisz jej wartość 'Garfield'.
+4. Stwórz zmienną liczbową 'year' i przypisz jej wartość '2000'.
+5. Stwórz zmienną boolean'owską 'wet' i przypisz jej wartość fałszywą.
+6. Wypisz znane Ci operatory logiczne.
+7. Napisz prostą pętlę for, która wykona się 5 razy i wyświetli do konsoli cyfry od 0 do 4
+włącznie.
+8. Napisz prostą pętlę while, która wykona się 3 razy i wyświetli do konsoli cyfry od 0 do 2
+włącznie.
+9. Napisz przykładowy warunek 'if/else'.
+10. Zapisz wyżej napisany przez siebie warunek w formie skróconej (ternary operator -
+warunek ? warunek spełniony : warunek niespełniony).
+11. Jakiego słówka używamy do przerwania np. pętli for?
+12. Napisz prostą funkcję switch.
+Tablice.
+13. Stwórz tablicę zawierającą cyfry od 0 do 9.
+14. Policz ilość nieparzystych elementów w powyższej tablicy, używając pętli for/while lub
+funkcji Array.filter. Ilość elementów nieparzystych zapisz w nowo utworzonej zmiennej
+'count'.
+15. Pomnóż każdy element ze stworzonej wyżej tablicy przez 2, używając pętli for/while
+lub Array.map / Array.forEach.
+16. Do tablicy utworzonej w punkcie 13 dodaj liczbę '10' (na koniec tablicy).
+17. Do tablicy utworzonej w punkcie 13 dodaj cyfrę '-1' na początku tablicy.
+18. Z tablicy z punktu 13 usuń ostatni element.
+19. Z tablicy z punktu 13 usuń pierwszy element.
+20. Tablicę z punktu 13 utnij w połowie, używając funkcji Array.slice i przypisz rezultat do
+nowej zmiennej.
+21. Liczbę 39.793245 zaokrąglij do dwóch miejsc po przecinku.
+22. Użyj funkcji Array.reduce do zsumowania wszystkich elementów z tablicy z punktu 13.
+23. Wylosuj liczbę z zakresu 0-99 i zaokrąglij ją w górę.
+24. Wylosuj liczbę z zakresu 0-99 i wylicz jej kwadrat.
+25. Przefiltruj daną tablicę:
+[{name: 'Mark'}, {name: 'John'}, {name: 'James'}, {name: 'Dan'}, {name: 'Ash'}]
+ze wszystkich elementów, których pierwsza litera klucza 'name', jest zawarta w tablicy:
+['m', 'd', 'a'].
+26. Dana tablica:
+[{fruit: apple, fresh: true, count: 5}, {fruit: banana, fresh: true, count: 3}, {fruit: orange, fresh:
+false, count: 2}, {fruit: mango, fresh: true, count: 7}].
+Stwórz obiekt, który będzie zawierał każdy element 'fruit' z podanej tablicy jako klucz
+oraz ilość jako wartość. Uwaga: w nowym obiekcie uwzględnij tylko świeże owoce, czyli
+te, których klucz 'fresh' jest prawdziwy. Przykładowy obiekt: {mango: 7, apple: 5}.
+Funkcje.
+27. Stwórz funkcję przyjmującą dwa argumenty:
+ tablicę (z punktu 24)
+ liczbę z przedziału 0-99
+zwracającą ilość powtórzeń danej liczby w podanej tablicy.
+28. Stwórz funkcję zwracającą tablicę składającą się z 100 elementów, których wartość
+losowana jest z przedziału 0-99 oraz jest zaokrąglona w dół.
+29. Stwórz funkcję, która z tablicy 10 elementowej, składającej się z losowych liczb z
+zakresu 1-10, zwróci maksymalny możliwy wynik z mnożenia trzech liczb.
+30. Stwórz funkcję przyjmującą dwa argumenty:
+ dowolną tablicę
+ dowolną liczbę
+sprawdzającą, czy dana liczba znajduje się w podanej tablicy. Obsłuż następujące
+przypadki:
+ brak podanej tablicy
+ brak podanej liczby
+ brak podanej tablicy i liczby
+ tablica jest pusta
+ podana tablica nie jest tablicą
+ podana liczba nie jest liczbą
