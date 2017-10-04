@@ -1,0 +1,47 @@
+II. Zadania średniozaawansowane.
+1. Podaj wynik następującego działania:
+typeof 1 === 1
+2. Scal podane tablice w jedną:
+let arr1 = [1, 2, 3, 4];
+let arr2 = [5, 6, 7, 8];
+Użyj metody Array.concat.
+3. Rozwiąż zadanie nr 3 z użyciem 'spread operator'.
+4. Utnij z danego stringa:
+'javascript';
+6 ostatnich liter i zapisz w nowej zmiennej.
+5. Przefiltruj daną tablicę:
+let arr = [7, 0, "", false, "words", undefined, null, [], {}];
+ze wszystkich wartości fałszywych i zapisz w nowej zmiennej.
+6. Stwórz funkcję, która wywoływana jest w następujący sposób:
+animals('dog')('woff');
+7. Dane zmienne:
+const names = ['Adam', 'Mark', 'James'];
+const eyes = ['Green', 'Blue', 'Bronze'];
+const age = [30, 20, 25];
+Stwórz z nich tablicę obiektów, gdzie przykładowy obiekt wygląda następująco:
+{ name: 'Adam', eye: 'Green', age: 30 }.
+8. Wypisz wszystkie klucze z danego obiektu:
+{ name: 'Bryan', surname: 'Black', age: 40 }
+9. Wypisz wszystkie wartości z obiektu z zadania nr 8.
+10. Sprawdź czy w danej tablicy:
+[{ sky: 'blue' }, { pillow: 'white' }, { grass: 'green' }]
+istnieje obiekt o kluczu 'pillow' i wartości 'white'. Wynik zapisz w nowej zmiennej.
+11. Z danej tablicy:
+[{ day: 5 }, { day: 7 }, { day: 10 }]
+wypisz i zapisz w nowej zmiennej wszystkie wartości klucza 'day'.
+12. Z danego obiektu:
+const data = {
+ first: [3.57, 2.43, 43.4],
+ second: [7.26, 1.43, 25.2],
+ third: [7.6165, 3.0, 6.42],
+};
+stwórz nowy obiekt, który przyjmie takie same klucze jak obiekt 'data', ich wartością
+będzie jednak iloczyn wszystkich elementów z odpowiedniej tablicy, poprzednio
+zaokrąglonych w dół.
+13. Dana tablica:
+let obj = [{ key1: 'value1' }, { key2: 'value2' }, { key3: 'value3' }, { key4: 'value4' }];
+Wyekstraktuj wszystkie klucze do nowej zmiennej 'keys'.
+14. Stwórz funkcję, która jako argument przyjmie dowolny string i za każdym jej
+wywołaniem będzie losowo zmieniać wielkość każdej litery (na małą bądź wielką).
+15. Usuń zduplikowane elementy w następującej tablicy:
+[ 'cat', 'dog', 'bird', 'cat', 'tortoise', 'camel', 'bird', 'horse', 'duck', 'dog'];

@@ -106,11 +106,11 @@ var fruits = [{fruit: "apple", fresh: true, count: 5}, {fruit: "banana", fresh: 
 false, count: 2}, {fruit: "mango", fresh: true, count: 7}]
 
 var freshFruits = [];
-var obj = new Object();
+var obj = {};
 for(var i = 0; i < fruits.length; i++){
     if(fruits[i].fresh = true){
-        obj
-        
+        obj = {i};
+        freshFruits.push(obj);
         //freshFruits.prototype.push.call(fruits[i].fruit, "fruits[i].count")
     }
 }

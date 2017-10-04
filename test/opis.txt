@@ -1,0 +1,3 @@
+Dana tablica: [{name: 'Mark'}, {name: 'John'}, {name: 'James'}, {name: 'Dan'}, {name: 'Ash'}];
+Przefiltruj ją z wszystkich elementów, których pierwsza litera klucza 'name', jest zawarta
+w tablicy: ['m','d','a'];
