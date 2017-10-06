@@ -92,19 +92,12 @@ function random(string) {
 //15.
 let arr10 = [ 'cat', 'dog', 'bird', 'cat', 'tortoise', 'camel', 'bird', 'horse', 'duck', 'dog'];
 
-let arr11 = arr10.filter((v, i) =>{
-    if(arr10.includes(v)){
-        arr10.splice(i, 1);
-    }
-})
-
-//oczywiście arr10 jest poprawnym rozwiązanim. Ale nie rozumiem dlaczego arr11 jest pusta, a przy użyciu metody map zawiera 10 elementów undefined. 
+let arr11 = arr10.filter((v, i) => arr10.indexOf(v) == i);
+//powyższe działa
 
 //let arr11 = arr10.filter((v, i) => {
-//    arr10.includes(v) ? arr10.splice(i, 1) : 0;}
-//)
-//powyższy przykład działa tak samo jak poprzedni
+//    arr10.indexOf(v) == i
+//});
+//to jest takie samo jak powyższe i nie działa. Dlaczego?
 
-
-//let arr11 = arr10.filter((v, i) => arr10.includes(v) ? arr10.splice(i, 1) : 0 )
-//powyższy przykład natomiast wg mnie jest identyczny jak powyższy (usunąłem tylko nawiasy klamrowe) natomiast arr11 dla filter jest teraz taka sama jak arr10 a dla metody map jest tablicą tablic z każdym elementem w środku i 5 pustymi na końcu. Tego już kompletnie nie rozumiem.  
+ 
